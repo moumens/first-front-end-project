@@ -1,0 +1,97 @@
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: "Work Sans", sans-serif;
+ }
+
+ .parent {
+     background-color: #eee;
+
+ }
+
+ .container {
+     margin: 0px auto;
+     padding: 0px 15px;
+
+ }
+
+
+ @media (min-width: 768px) {
+     .container {
+         width: 750;
+     }
+
+ }
+
+
+ @media (min-width: 929px) {
+     .container {
+         width: 970;
+     }
+
+ }
+
+
+ @media (min-width: 1200px) {
+     .container {
+         width: 1170px;
+     }
+
+ }
+
+
+ /*------------STARTING THE HEADER------------*/
+
+ .header {
+     padding: 20px;
+ }
+
+ .header .container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .header .logo {
+     width: 60px;
+ }
+
+ .header .container .links {
+     position: relative;
+ }
+
+ .header .container .links .icon {
+     width: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-end;
+ }
+
+ .header .container .links .icon span {
+     background-color: #333;
+     margin: 3px;
+     height: 2px;
+ }
+
+ .header .container .links .icon span:first-child {
+     width: 100%;
+ }
+
+ .header .container .links .icon span:nth-child(2) {
+     width: 50%;
+
+
+ }
+
+ .header .container .links .icon span:nth-child(3) {
+     width: 100%;
+
+ }
+
+
+
+ /*------------END HEADER---------------*/
