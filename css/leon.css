@@ -120,7 +120,6 @@
      display: none;
      z-index: 1;
 
-
  }
 
  .header .links ul li a {
@@ -178,3 +177,42 @@
 
 
  /*------------END LANDING---------------*/
+
+
+ /*------------START FEATURES---------------*/
+
+ .feature {
+     padding: 60px 0px;
+     background-color: #f6f6f6;
+ }
+
+ .feature .container {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     gap: 20px;
+
+ }
+
+ .feature .container .features {
+     padding: 20px;
+     text-align: center;
+ }
+
+ .feature .container .features i {
+     color: var(--main-color);
+ }
+
+ .feature .container .features h3 {
+     font-weight: 800;
+     margin: 30px 0;
+ }
+
+ .feature .container .features p {
+     color: #777;
+     line-height: 1.6;
+
+
+
+ }
+
+ /*------------END FEATURES---------------*/
