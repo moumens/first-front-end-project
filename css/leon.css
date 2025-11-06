@@ -194,7 +194,7 @@
  }
 
  .feature .container .features {
-     padding: 20px;
+     padding: 10px;
      text-align: center;
  }
 
@@ -204,7 +204,7 @@
 
  .feature .container .features h3 {
      font-weight: 800;
-     margin: 30px 0;
+     margin: 20px 0;
  }
 
  .feature .container .features p {
@@ -216,3 +216,64 @@
  }
 
  /*------------END FEATURES---------------*/
+
+ /*------------START SERVICES---------------*/
+ .services .container .special-heading {
+     text-align: center;
+     font-size: 100px;
+     color: #ebeced;
+     letter-spacing: -3;
+     margin: 0px;
+ }
+
+ .services .container .special-heading+p {
+     text-align: center;
+     margin: -30px 0 0;
+     font-size: 20px;
+     color: #797979;
+
+ }
+
+ .services {
+     padding: 60px 0px;
+
+ }
+
+ .services .services-content {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     grid-gap: 20px;
+     margin-top: 100px;
+ }
+
+ .services .services-content .ser {
+     display: flex;
+     margin-bottom: 40px;
+
+ }
+
+ @media (max-width:767px) {
+     .services .services-content .ser {
+         flex-direction: column;
+         text-align: center;
+     }
+ }
+
+ .services .services-content .ser i {
+     color: var(--main-color);
+ }
+
+ .services .services-content .ser .text h3 {
+     margin: 0px 0px 0px 20px;
+ }
+
+ .services .services-content .ser .text p {
+     color: #333;
+     font-weight: 300;
+     line-height: 1.6;
+
+
+ }
+
+
+ /*------------END SERVICES---------------*/
