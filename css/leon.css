@@ -290,6 +290,7 @@
      letter-spacing: -3px;
      margin: 0px;
      padding: 60px 0px;
+     padding-top: 0px;
  }
 
  .portfolio .container .special-heading+p {
@@ -310,7 +311,7 @@
  }
 
  .portfolio .card {
-     background-color: antiquewhite;
+     background-color: #eee;
      display: flex;
      flex-direction: column;
 
@@ -325,7 +326,7 @@
  }
 
  .portfolio .card .info h3 {
-     margin-top: 10px;
+     padding: 60px 0px;
  }
 
  .portfolio .card p {
@@ -335,3 +336,91 @@
  }
 
  /*------------End PORTFOLIO--------------------/
+
+
+
+ /*--------------START ABOUT-----------------*/
+
+ .about {
+
+     margin-top: -10px;
+ }
+
+ .about .container .special-heading {
+     text-align: center;
+     font-size: 100px;
+     color: #ebeced;
+     letter-spacing: -3px;
+     margin: 0px;
+     padding-top: 60px;
+ }
+
+ .about .container p {
+     text-align: center;
+     margin: -0px 0 0;
+     font-size: 20px;
+     color: #797979;
+
+ }
+
+ .about .container .about-content {
+     padding-top: 100px;
+     display: flex;
+     flex-direction: row;
+     gap: 40px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .about .container .about-content .image img {
+     max-width: 100%;
+     height: 365px;
+ }
+
+ .about .container .about-content .image {
+     position: relative;
+     width: 250px;
+     height: 375px;
+ }
+
+ .about .container .about-content .image::before {
+     content: "";
+     position: absolute;
+     background-color: #ebeced;
+     width: 100px;
+     height: calc(100% + 44px);
+     top: -40px;
+     left: -20px;
+     z-index: -1;
+ }
+
+ .about .container .about-content .image::after {
+     content: "";
+     position: absolute;
+     width: 120px;
+     height: 300px;
+     border-left: 80px solid var(--main-color);
+     border-bottom: 80px solid var(--main-color);
+     z-index: -1;
+     right: -90px;
+     top: -40px;
+
+ }
+
+ .about .container .about-content .text {
+     flex: 1;
+ }
+
+ .about .container .about-content .text p {
+     color: #777;
+     line-height: 2;
+ }
+
+ .about .container .about-content .text hr {
+
+     border: none;
+     height: 2px;
+     background-color: var(--main-color);
+ }
+
+ /*--------------END ABOUT-------------------*/
